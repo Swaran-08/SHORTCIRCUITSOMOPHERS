@@ -1,15 +1,15 @@
 # SHORTCIRCUITSOMOPHERS
-# 🔧 4-Bit ALU — NI Multisim
+#  4-Bit ALU — NI Multisim
 
 A 4-bit ALU designed in NI Multisim supporting add/sub and bitwise logic operations with decimal display output.
-## 📌 Overview
+##  Overview
 
 This project implements a **4-bit Arithmetic Logic Unit (ALU)** designed in **NI Multisim** using TTL ICs.
 The ALU supports arithmetic and bitwise logic operations selected using two control lines placed at the **top of the schematic**.
 
 ---
 
-## 🎛️ Operations (Select Lines)
+##  Operations (Select Lines)
 
 | S1 S0  | Operation                    |
 | ------ | ---------------------------- |
@@ -25,7 +25,7 @@ The ALU supports arithmetic and bitwise logic operations selected using two cont
 
 ---
 
-## ⚙️ Decimal Display Logic
+##  Decimal Display Logic
 
 To generate decimal output, a **three-stage correction logic** is used:
 
@@ -41,7 +41,7 @@ The corrected lower 4 bits drive the **ones digit** display.
 
 ---
 
-## 🧩 Main Components
+##  Main Components
 
 * 7483 — 4-bit Adder
 * 74LS86 — XOR (Subtraction & XOR operation)
@@ -52,7 +52,7 @@ The corrected lower 4 bits drive the **ones digit** display.
 
 ---
 
-## 🔢 Inputs & Outputs
+##  Inputs & Outputs
 
 **Inputs:**
 `A[3:0]`, `B[3:0]`, `Cin`, `S1 S0`
@@ -62,7 +62,7 @@ Decimal result displayed on two digits (tens & ones).
 
 ---
 
-## 🎯 Notes
+##  Notes
 
 * Designed using gate-level and IC-level logic.
 * Select lines are positioned at the top for easier simulation control.
