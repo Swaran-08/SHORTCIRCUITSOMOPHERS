@@ -1,4 +1,4 @@
-# SHORTCIRCUITSOMOPHERS
+# SHORTCIRCUITSOPHOMORES
 #  4-Bit ALU — NI Multisim
 
 A 4-bit ALU designed in NI Multisim supporting add/sub and bitwise logic operations with decimal display output.
